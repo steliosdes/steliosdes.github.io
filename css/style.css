@@ -1,0 +1,200 @@
+html {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+/*Tables*/
+.edu td:first-child {
+	width:230px;
+	vertical-align: top;
+    text-align: left;
+	color: #616161;
+}
+
+.awards td:first-child {
+	width:130px;
+	vertical-align: top;
+    text-align: center;
+	color: #616161;
+}
+
+.contact {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.contact td:first-child {
+	vertical-align: top;
+    text-align: center;
+}
+
+.contact td:last-child {
+	vertical-align: center;
+    text-align: left;
+	font-size: 0.75em;
+	line-height: 1.2em;
+}
+
+/*Headlines*/
+h1, h2, h3 {
+    color: #3F51B5;
+}
+
+/*Grey*/
+.grey {
+	color: #616161;
+}
+
+/*Sidebar*/
+.sidebar {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 48em) and (min-height: 36em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*bottom: 0;*/
+    width: 18rem;
+  }
+}
+
+/*Content*/
+.content {
+  padding-top:    4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 48em) and (min-height: 36em) {
+  .content {
+    max-width: 45rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 64em) and (min-height: 36em) {
+  .content {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+}
+
+/*Line*/
+h3 {
+    overflow: hidden;
+}
+h3:after {
+    background-color: #3F51B5;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+	left: 0.5em;
+	margin-right: -50%;
+}
+
+/*Social Bar*/
+.social {
+	margin: 1rem 0rem 1rem 0rem;
+}
+
+/*Link style*/
+/* unvisited link */
+a:link {
+    color: #03A9F4;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #0277BD;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #81D4FA;
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #4FC3F7;
+	text-decoration: underline;
+}
+
+/*Link Style in content*/
+/* link */
+.content a {
+    color: inherit;
+	text-decoration: none;
+	border-bottom: 1px dotted #616161;
+}
+
+/* mouse over link */
+.content a:hover {
+    color: #81D4FA;
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+/* selected link */
+.content a:active {
+    color: #4FC3F7;
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+/*List*/
+ul {
+  margin-top: 0.4rem;
+}
+
+/*hr*/
+hr { 
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(63, 81, 181, 0.2), rgba(63, 81, 181, 1), rgba(63, 81, 181, 0.2));
+}
+
+/*Profile Pic*/ 
+#profile_pic img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10%;
+  box-shadow: -12px 0px 12px -5px rgba(0,0,0,0.6);
+  transition: all 0.5s ease;
+} 
+ 
+#profile_pic img:hover {  
+  opacity: 0.9;
+  box-shadow: -12px 0px 24px -5px rgba(0,0,0,0.6);
+}
+
+/*Latex*/
+.latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.latex, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
