@@ -1,6 +1,6 @@
 # Credits
 
-1) Social network icons: [Jekyll Now](https://github.com/barryclark/jekyll-now)
+1) Social network icons: [Free Social Icons](https://github.com/neilorangepeel/Free-Social-Icons)
 
 2) Contact details icons: [Elegant Icon Font](https://www.elegantthemes.com/blog/resources/elegant-icon-font)
 
