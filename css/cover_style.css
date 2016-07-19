@@ -1,0 +1,49 @@
+html {
+  color: #ffffff;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;  
+  background-image: url("/images/back.jpg");
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+#cover {
+  padding-top: 15%;
+  text-align: center;	
+}
+
+#name {
+  font-size: 3em;
+}
+
+#link {
+  padding-top: 3rem;
+  font-size: 1.5em;
+}
+
+
+/*Link style*/
+/* unvisited link */
+a:link {
+    color: #03A9F4;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #0277BD;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #81D4FA;
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #4FC3F7;
+	text-decoration: underline;
+}

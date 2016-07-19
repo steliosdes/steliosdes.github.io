@@ -1,19 +1,20 @@
 html {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.5em;
 }
 
 /*Tables*/
 .edu td:first-child {
-	width:230px;
+	width: 14rem;
+	max-width: 30%;
 	vertical-align: top;
     text-align: left;
 	color: #616161;
 }
 
 .awards td:first-child {
-	width:130px;
+	width: 8rem;
 	vertical-align: top;
     text-align: center;
 	color: #616161;
@@ -32,8 +33,8 @@ html {
 .contact td:last-child {
 	vertical-align: center;
     text-align: left;
-	font-size: 0.75em;
-	line-height: 1.2em;
+	font-size: 0.75rem;
+	line-height: 1.2rem;
 }
 
 /*Headlines*/
@@ -52,12 +53,11 @@ h1, h2, h3 {
   padding: 2rem 1rem;
 }
 
-@media (min-width: 48em) and (min-height: 36em) {
+@media (min-width: 48em) and (min-height: 40em) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
-    /*bottom: 0;*/
     width: 18rem;
   }
 }
@@ -66,17 +66,18 @@ h1, h2, h3 {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
+  max-width: 60rem;
 }
 
-@media (min-width: 48em) and (min-height: 36em) {
+@media (min-width: 48em) and (min-height: 40em) {
   .content {
-    max-width: 45rem;
+	max-width: 45rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
 }
 
-@media (min-width: 64em) and (min-height: 36em) {
+@media (min-width: 64em) and (min-height: 40em) {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
@@ -165,9 +166,9 @@ hr {
 
 /*Profile Pic*/ 
 #profile_pic img {
-  width: 100%;
+  width: 80%;
   max-width: 250px;
-  border-radius: 10%;
+  border-radius: 5%;
   box-shadow: -12px 0px 12px -5px rgba(0,0,0,0.6);
   transition: all 0.5s ease;
 } 
@@ -203,7 +204,6 @@ hr {
 .hover_box {
   border-bottom: 1px dashed;
   cursor: help;
-  position: relative;
 }
 
 .message {
@@ -212,16 +212,12 @@ hr {
   padding: 0.8em 1em;
   background: #e8eaf6;
   border: 1px solid;
+  margin-left: 1em;    
+  border-radius: 5px 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .hover_box:hover .message {
-  display: inline;
-  left: 1em;
-  top: 2em;
+  display: block;
   z-index: 99;
-  margin-left: 0;
-  width: 250px;
-  
-  border-radius: 5px 5px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
