@@ -2,6 +2,7 @@ html {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5em;
+  background-color: #fafafa
 }
 
 /*Tables*/
@@ -33,8 +34,8 @@ html {
 .contact td:last-child {
 	vertical-align: center;
     text-align: left;
-	font-size: 0.75rem;
-	line-height: 1.2rem;
+	font-size: 0.75em;
+	line-height: 1.2em;
 }
 
 /*Headlines*/
@@ -64,7 +65,7 @@ h1, h2, h3 {
 
 /*Content*/
 .content {
-  padding-top:    4rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
   max-width: 60rem;
 }
@@ -166,16 +167,16 @@ hr {
 
 /*Profile Pic*/ 
 #profile_pic img {
-  width: 80%;
+  width: 100%;
   max-width: 250px;
   border-radius: 5%;
-  box-shadow: -12px 0px 12px -5px rgba(0,0,0,0.6);
+  box-shadow: -10px 10px 10px -5px rgba(0,0,0,0.6);
   transition: all 0.5s ease;
 } 
  
 #profile_pic img:hover {  
   opacity: 0.9;
-  box-shadow: -12px 0px 24px -5px rgba(0,0,0,0.6);
+  box-shadow: -10px 10px 20px -5px rgba(0,0,0,0.6);
 }
 
 /*Latex*/
