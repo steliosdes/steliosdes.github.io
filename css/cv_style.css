@@ -68,6 +68,7 @@ h1, h2, h3 {
   padding-top: 4rem;
   padding-bottom: 4rem;
   max-width: 60rem;
+  margin: auto;
 }
 
 @media (min-width: 48em) and (min-height: 40em) {
