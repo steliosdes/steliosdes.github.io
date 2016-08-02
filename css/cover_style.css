@@ -1,48 +1,44 @@
 html {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
+  background-color: #333D47;
   background-image: url("../images/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;  
 }
 
 #cover {
   padding-top: 10%;
   text-align: center;
-  font-weight: bold;  
 }
 
 #name {
-  font-size: 3em;
+  font-size: 5em;
   color: #ffffff;
-  text-shadow: 4px 4px 5px #000000;
+  font-weight: bold;
+  /*text-shadow: 4px 4px 5px #000000;*/
 }
 
-#link {
-  padding-top: 5rem;
-  font-size: 1.5em;
+#links {
+  padding-top: 7rem;
+  font-size: 1em;
 }
 
-
-/*Link style*/
-/* unvisited link */
-a:link {
-    color: #03A9F4;
-	text-decoration: underline;
+@media(max-width:48em) {
+	#name {
+      font-size: 3em;
+	}
 }
 
-/* visited link */
-a:visited {
-    color: #0277BD;
-	text-decoration: underline;
+#links a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #039BE5;
+  padding: 0.3rem 1.5rem;
+  border-radius: 3rem;
+  transition: all 0.5s ease;
 }
 
-/* mouse over link */
-a:hover {
-    color: #81D4FA;
-	text-decoration: underline;
-}
-
-/* selected link */
-a:active {
-    color: #4FC3F7;
-	text-decoration: underline;
+#links a:hover {
+  background-color: #81D4FA;
 }
