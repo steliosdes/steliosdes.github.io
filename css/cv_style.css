@@ -24,18 +24,21 @@ html {
 .contact {
 	margin-left: auto;
     margin-right: auto;
+	color: #616161;
 }
 
 .contact td:first-child {
 	vertical-align: top;
     text-align: center;
+	line-height: 1.2em;
+	font-size: 1em;
 }
 
 .contact td:last-child {
 	vertical-align: center;
     text-align: left;
+	line-height: 1.2em;	
 	font-size: 0.75em;
-	line-height: 1.2em;
 }
 
 /*Headlines*/
@@ -90,6 +93,7 @@ h1, h2, h3 {
 h3 {
     overflow: hidden;
 }
+
 h3:after {
     background-color: #3F51B5;
     content: "";
@@ -108,46 +112,39 @@ h3:after {
 }
 
 /*Link style*/
-/* unvisited link */
 a:link {
     color: #03A9F4;
 	text-decoration: none;
 }
 
-/* visited link */
 a:visited {
     color: #0277BD;
 	text-decoration: none;
 }
 
-/* mouse over link */
 a:hover {
     color: #81D4FA;
 	text-decoration: underline;
 }
 
-/* selected link */
 a:active {
     color: #4FC3F7;
 	text-decoration: underline;
 }
 
 /*Link Style in content*/
-/* link */
 .content a {
     color: inherit;
 	text-decoration: none;
 	border-bottom: 1px dotted #616161;
 }
 
-/* mouse over link */
 .content a:hover {
     color: #81D4FA;
 	text-decoration: none;
 	border-bottom: 1px solid;
 }
 
-/* selected link */
 .content a:active {
     color: #4FC3F7;
 	text-decoration: none;
