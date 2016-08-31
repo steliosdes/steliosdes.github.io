@@ -70,13 +70,13 @@ h1, h2, h3 {
 .content {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  max-width: 60rem;
+  max-width: 50rem;
   margin: auto;
 }
 
 @media (min-width: 48em) and (min-height: 40em) {
   .content {
-	max-width: 45rem;
+	max-width: 50rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
