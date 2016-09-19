@@ -1,12 +1,13 @@
 html {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
-  background-color: #333D47;  
+  background-color: #333D47;
   background: url(../images/back.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;  
+  background-size: cover;
+  height: 100%;
 }
 
 #cover {
