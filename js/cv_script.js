@@ -8,7 +8,7 @@ $( document ).ready( function() {
   
   ( function(a1,a2,a3,a4) { 
       $("#myemail").html($('<a>').text(a1.concat(a2,a3,a4)).attr('href','mailto:'.concat(a1,a2,a3,a4)));
-	}
+    }
   )(e1,e2,e3,e4);
 
   
@@ -23,7 +23,7 @@ $( document ).ready( function() {
         scrollTop: $(target).offset().top
       }, 900, function() {
         window.location.hash = target;
-	  }
+      }
     );
   });
   
