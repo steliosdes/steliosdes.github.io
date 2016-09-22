@@ -8,17 +8,18 @@ html {
 /*Tables*/
 .edu td:first-child {
   width: 14rem;
-  max-width: 30%;
+  /*max-width: 30%*/
   vertical-align: top;
   text-align: left;
   color: #616161;
 }
 
 .awards td:first-child {
-  width: 8rem;
   vertical-align: top;
   text-align: center;
   color: #616161;
+  white-space: nowrap;
+  padding-right: 1rem;
 }
 
 .contact {
@@ -153,11 +154,16 @@ a:active {
 
 /*List*/
 ul {
-  margin-top: 0.4rem;
+  margin-top: 0.4em;
+  padding-left: 1.2em;
+}
+
+li {
+  padding-left: 0.3em;
 }
 
 /*hr*/
-hr { 
+hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(63, 81, 181, 0.2), rgba(63, 81, 181, 1), rgba(63, 81, 181, 0.2));
