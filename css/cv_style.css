@@ -25,12 +25,12 @@ html {
 }
 @media (max-width: 32em) {
   .education-table .description {
-    min-width: 60%;
+    width: 60%;
   }
 }
-@media (min-width: 48em) and (max-width: 52em) and (min-height:36em) {
+@media (min-width: 48em) and (max-width: 54em) and (min-height:36em) {
   .education-table .description {
-    min-width: 60%;
+    width: 60%;
   }
 }
 
