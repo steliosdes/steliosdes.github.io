@@ -8,6 +8,7 @@ html {
 /*Tables*/
 .education-table {
     display: table;
+    border-spacing: 0 0.3em;
 }
 .education-table .row {
     /*height: 40px;*/
@@ -32,6 +33,10 @@ html {
   .education-table .description {
     width: 60%;
   }
+}
+
+.awards {
+  border-spacing: 0 0.3em;
 }
 
 .awards td:first-child {
@@ -198,6 +203,7 @@ ul {
 
 li {
   padding-left: 0.3em;
+  margin: 0.3em 0;
 }
 
 /*hr*/
@@ -294,4 +300,40 @@ hr {
   line-height: 2;
   border: 1px solid #616161;
   border-radius: .25em;
+}
+
+/*Abstract*/
+.abstract-state {
+  display: none;
+}
+
+.abstract-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  text-align: justify;
+  padding: 0 1em;
+  border-left: 1px solid #616161;
+}
+
+.abstract-state:checked ~ .abstract-wrap .abstract-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.abstract-state ~ .abstract-trigger:before {
+  content: '\25b9 Show abstract';
+}
+
+.abstract-state:checked ~ .abstract-trigger:before {
+  content: '\25bf Hide abstract';
+}
+
+.abstract-trigger {
+  cursor: pointer;
+  display: inline-block;
+  color: #616161;
+  font-size: .9em;
+  border-bottom: 1px dashed #616161;
 }
