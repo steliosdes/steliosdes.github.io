@@ -323,11 +323,11 @@ hr {
 }
 
 .abstract-state ~ .abstract-trigger:before {
-  content: '\25b9 Show abstract';
+  content: '\25b7\ Show abstract';
 }
 
 .abstract-state:checked ~ .abstract-trigger:before {
-  content: '\25bf Hide abstract';
+  content: '\25bd\ Hide abstract';
 }
 
 .abstract-trigger {
