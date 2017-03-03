@@ -332,7 +332,6 @@ hr {
 
 .abstract-trigger {
   cursor: pointer;
-  display: inline-block;
   color: #616161;
   font-size: .9em;
   border-bottom: 1px dashed #616161;
