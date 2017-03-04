@@ -6,7 +6,7 @@ $( document ).ready( function() {
   var e2 = h.get(1).textContent.trim();
   var e1 = $('#myemail div div').contents().filter(function() {return this.nodeType == 3;}).text().trim();
   
-  ( function(a1,a2,a3,a4) { 
+  ( function(a1,a2,a3,a4) {
       $("#myemail").html($('<a>').text(a1.concat(a2,a3,a4)).attr('href','mailto:'.concat(a1,a2,a3,a4)));
     }
   )(e1,e2,e3,e4);
