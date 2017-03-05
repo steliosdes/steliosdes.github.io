@@ -5,6 +5,11 @@ html {
     background-color: #fafafa;
 }
 
+body {
+    margin: 0.5em;
+    padding: 0;
+}
+
 /*Tables*/
 .education-table {
     display: table;
@@ -29,7 +34,7 @@ html {
         width: 60%;
     }
 }
-@media (min-width: 48em) and (max-width: 54em) and (min-height:36em) {
+@media (min-width: 48em) and (max-width: 53em) and (min-height:36em) {
     .education-table .description {
         width: 60%;
     }
@@ -114,9 +119,9 @@ html {
     margin-right: auto;
 }
 
-@media (min-width: 78em) and (min-height: 36em) {
+@media (min-width: 74em) and (min-height: 36em) {
     .cv-container {
-        width: 76em
+        width: 73em;
     }
 }
 
@@ -147,14 +152,13 @@ html {
     .content {
         padding-top: 4em;
         margin-left: 20em;
-        margin-right: 2em;
+        margin-right: 1em;
     }
 }
 
 @media (min-width: 64em) and (min-height: 36em) {
     .content {
         margin-left: 22em;
-        margin-right: 4em;
     }
 }
 
