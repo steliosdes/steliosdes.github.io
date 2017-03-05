@@ -21,8 +21,8 @@ html {
 }
 .education-table .date {
     color: #616161;
-    padding-right: 1rem;
-    width: 14rem;
+    padding-right: 1em;
+    width: 14em;
 }
 @media (max-width: 32em) {
     .education-table .description {
@@ -44,7 +44,7 @@ html {
     text-align: center;
     color: #616161;
     white-space: nowrap;
-    padding-right: 1rem;
+    padding-right: 1em;
 }
 
 .contact {
@@ -91,11 +91,7 @@ html {
     margin-right: -100%;
 }
 
-/*Headlines*/
-/*h1, h2, h3 {
-    color: #3F51B5;
-}*/
-
+/*Name title*/
 #name_title {
     display: block;
     font-size: 1.5em;
@@ -120,14 +116,14 @@ html {
 
 @media (min-width: 78em) and (min-height: 36em) {
     .cv-container {
-        width: 76rem
+        width: 76em
     }
 }
 
 /*Sidebar*/
 .sidebar {
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2em 1em;
 }
 
 @media (min-width: 48em) and (min-height: 36em) {
@@ -135,35 +131,36 @@ html {
         position: fixed;
         top: 0;
         /*left: 0;*/
-        width: 18rem;
+        width: 18em;
     }
 }
 
 /*Content*/
 .content {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    max-width: 50rem;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    max-width: 50em;
     margin: auto;
 }
 
 @media (min-width: 48em) and (min-height: 36em) {
     .content {
-        margin-left: 20rem;
-        margin-right: 2rem;
+        padding-top: 4em;
+        margin-left: 20em;
+        margin-right: 2em;
     }
 }
 
 @media (min-width: 64em) and (min-height: 36em) {
     .content {
-        margin-left: 22rem;
-        margin-right: 4rem;
+        margin-left: 22em;
+        margin-right: 4em;
     }
 }
 
 /*Social Bar*/
 .social {
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 1em 0em 1em 0em;
 }
 
 /*Link style*/
@@ -334,11 +331,11 @@ hr {
 }
 
 .abstract-state ~ .abstract-trigger:before {
-    content: '\25b7\ Show abstract';
+    content: '\25b7\00a0 Show abstract';
 }
 
 .abstract-state:checked ~ .abstract-trigger:before {
-    content: '\25bd\ Hide abstract';
+    content: '\25bd\00a0 Hide abstract';
 }
 
 .abstract-trigger {
