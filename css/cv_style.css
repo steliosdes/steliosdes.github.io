@@ -8,7 +8,7 @@ html {
 body {
     margin: 0.5em;
     padding: 0;
-    color: #000;
+    color: #212121;
 }
 
 /*Tables*/
@@ -82,7 +82,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;*/
-    color: #3F51B5;
+    color: #303F9F;
     overflow: hidden;
 }
 .section-title:after {
@@ -106,7 +106,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;*/
-    color: #3F51B5;
+    color: #303F9F;
 }
 
 /*Grey*/
@@ -178,6 +178,11 @@ body {
 
 .social img {
     width: 40px;
+    transition: all 0.5s ease;
+}
+
+.social img:hover {
+    opacity: 0.7;
 }
 
 /*Link style*/
@@ -205,7 +210,7 @@ a:active {
 .content a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px dotted #616161;
+    border-bottom: 1px dotted #9E9E9E;
 }
 
 .content a:hover {
@@ -270,7 +275,7 @@ hr {
 
 /*Hover Box*/
 .hover_box {
-    border-bottom: 1px dashed #616161;
+    border-bottom: 1px dashed #9E9E9E;
     cursor: help;
 }
 
@@ -278,8 +283,8 @@ hr {
     display: none;
     position: absolute;
     padding: 0.8em 1em;
-    color: #000000;
-    background: #e8eaf6;
+    color: #212121;
+    background: #E8EAF6;
     border: 1px solid;
     margin-left: 1em;    
     border-radius: 5px 5px;
@@ -323,7 +328,7 @@ hr {
     color: #616161;
     font-size: .9em;
     line-height: 2;
-    border: 1px solid #616161;
+    border: 1px solid #9E9E9E;
     border-radius: .25em;
 }
 
@@ -338,7 +343,7 @@ hr {
     font-size: 0;
     text-align: justify;
     padding: 0 1em;
-    border-left: 1px solid #616161;
+    border-left: 1px solid #9E9E9E;
 }
 
 .abstract-state:checked ~ .abstract-wrap .abstract-target {
@@ -359,7 +364,7 @@ hr {
     cursor: pointer;
     color: #616161;
     font-size: .9em;
-    border-bottom: 1px dashed #616161;
+    border-bottom: 1px dashed #9E9E9E;
 }
 
 /*Publications*/
@@ -377,7 +382,7 @@ hr {
 .paper-image {
     width: 150px;
     /*border-radius: 5%;
-    border: 0.5px dashed #616161;*/
+    border: 0.5px dashed #9E9E9E;*/
 }
 
 .paper-details {
