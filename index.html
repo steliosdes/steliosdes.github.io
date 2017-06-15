@@ -3,20 +3,22 @@
 
     <head>
         <meta charset="utf-8">
-        
+
         <meta name="keywords" content="Stelios, Stylianos, Despotakis, stedes, Στέλιος, Στυλιανός, Δεσποτάκης">
-        <meta name="description" content="Stylianos (Stelios) Despotakis">
+        <meta name="description" content="Stylianos (Stelios) Despotakis CV">
         <meta name="author" content="Stylianos Despotakis">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-        <title>Stelios Despotakis</title>
-      
-        <link rel="stylesheet" href="css/cover_style.css">
+
+        <title>Stelios Despotakis CV</title>
+
+        <link rel="stylesheet" href="css/cv_style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
-      
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/ga.js"></script>
-      
+
         <!-- Icons -->
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -27,15 +29,377 @@
     </head>
 
     <body>
+        <div class="cv-container">
+            <div class="sidebar">
+                <div id="profile-pic"><img src="images/me.png" alt="me"></div>
+                <h2 id="name-title">Stylianos (Stelios) Despotakis</h2>
+                <table class="contact">
+                    <tr>
+                        <td><span class="fa fa-map-marker fa-lg fa-fw"></span></td>
+                        <td>
+                            Carnegie Mellon University <br>
+                            Tepper School of Business <br>
+                            318 <a href="https://www.google.com/maps/place/Tepper+School+of+Business,+5000+Forbes+Ave,+Pittsburgh,+PA+15213/">GSIA</a> <br>
+                            5000 Forbes Avenue, Pittsburgh, PA 15213, USA
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fa fa-envelope fa-fw"></span></td>
+                        <td>
+                            <div id="myemail" style="display: inline-block;">
+                                @cmu.
+                                <div style="float:right;">
+                                    edu
+                                </div>
+                                <div style="float:left;">
+                                    des
+                                    <span style="display:none;">ignore_this</span>
+                                    <div style="float:left;">
+                                        stelios
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fa fa-globe fa-fw"></span></td>
+                        <td>
+                            <a href="/">stedes.com</a>
+                        </td>
+                    </tr>
+                </table>
 
-        <div id="cover">
-            <div id="name">
-                Stelios Despotakis
+                <nav class="social">
+                    <a href="https://github.com/steliosdes"><img src="images/github.png" alt="Github"></a>
+                    <a href="https://www.facebook.com/stedes"><img src="images/diamond.png" alt="Diamond"></a>
+                    <a href="https://plus.google.com/105367158557648232814"><img src="images/crystal.png" alt="Crystal"></a>
+                </nav>
+
+                <hr>
+                <nav>
+                    <a href="#about">About</a> |
+                    <a href="#papers">Papers</a> |
+                    <a href="#awards">Awards</a>
+                </nav>
             </div>
-            <nav id="links">
-                <a href="cv">View CV</a>
-            </nav>
+
+
+            <div class="content">
+
+                <div class="section">
+                    <h3 class="section-title" id="about">About</h3>
+                    <p>
+                        Hi! My name is
+                        <span class="hover-box">Stylianos Despotakis<span class="message">Greek: Στυλιανός Δεσποτάκης, <small>pronounced&nbsp;</small><span title="Representation in the International Phonetic Alphabet (IPA)">[sti&#654;a'nos &#240;espo'takis]</span> <span title="English pronunciation respelling" class="epr">steel-yah-<span class="smallcaps">NOHSS</span> theh-spoh-<span class="smallcaps">TAH</span>-kees</span></span></span>.
+                        I usually go by
+                        <span class="hover-box">Stelios<span class="message">Greek: Στέλιος, <small>pronounced&nbsp;</small><span title="Representation in the International Phonetic Alphabet (IPA)">['ste&#654;os]</span> <span title="English pronunciation respelling" class="epr"><span class="smallcaps">STELL</span>-yohs</span></span></span>.
+                        I am a PhD student at <a href="http://www.cmu.edu/">Carnegie Mellon University</a>'s <a href="http://tepper.cmu.edu/">Tepper School of Business</a>, where I am advised by <a href="http://www.contrib.andrew.cmu.edu/~ravi/">R. Ravi</a>.
+                    </p>
+                </div>
+
+
+                <div class="section">
+                    <h3 class="section-title">Research Interests</h3>
+                    <p>
+                        My research interests lie in the interdisciplinary area of game theory, marketing, microeconomics, and operations research.
+                    </p>
+                </div>
+
+
+                <div class="section">
+                    <h3 class="section-title">Education</h3>
+                    <div class="section-content">
+                        <div class="education-table">
+                            <div class="row">
+                                <div class="cell date">August 2012&ndash;present</div>
+                                <div class="cell description">
+                                    <div class="school"><a href="http://www.cmu.edu/">Carnegie Mellon University</a>, Pittsburgh, PA, USA</div>
+                                    <div class="info">
+                                        <strong>PhD</strong>, <span class="grey">Dissertation Committee:</span> <a href="http://www.contrib.andrew.cmu.edu/~ravi/">R. Ravi</a> (chair), <a href="http://tepper.cmu.edu/our-faculty-and-research/about-our-faculty/faculty-profiles/kannans/srinivasan-kannan">Kannan Srinivasan</a>, <a href="http://www.vibhanshu.com">Vibhanshu Abhishek</a>, <a href="http://www.andrew.cmu.edu/user/isaemin/">Isa Hafalir</a>, and <a href="http://tepper.cmu.edu/our-faculty-and-research/about-our-faculty/faculty-profiles/kfzhang/zhang-kaifu">Kaifu Zhang</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cell date">August 2012&ndash;May 2014</div>
+                                <div class="cell description">
+                                    <div class="school"><a href="http://www.cmu.edu/">Carnegie Mellon University</a>, Pittsburgh, PA, USA</div>
+                                    <div class="info">
+                                        <strong>MSc</strong> in <a href="http://aco.math.cmu.edu/">Algorithms, Combinatorics, and Optimization</a> <br>
+                                        <span class="grey">QPA:</span> 4.25/4(.33)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cell date">September 2010&ndash;July 2012</div>
+                                <div class="cell description">
+                                    <div class="school"><a href="http://en.uoa.gr/">University of Athens</a> and <a href="http://www.ntua.gr/index_en.html">National Technical University of Athens</a>, Greece</div>
+                                    <div class="info">
+                                        <strong>MSc</strong> in <a href="http://mpla.math.uoa.gr/en/">Logic, Algorithms, and Computation</a> <br>
+                                        <span class="grey">GPA:</span> 10.00/10.00 (ranked <strong>1st</strong> in my year)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cell date">September 2006&ndash;June 2010</div>
+                                <div class="cell description">
+                                    <div class="school"><a href="https://www.auth.gr/en">Aristotle University of Thessaloniki</a>, Greece</div>
+                                    <div class="info">
+                                        <strong>BSc</strong> in <a href="http://www.math.auth.gr/en">Mathematics</a> <br>
+                                        <span class="grey">GPA:</span> 9.56/10.00 (ranked <strong>1st</strong> in my year)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cell date">September 2003&ndash;June 2006</div>
+                                <div class="cell description">
+                                    <div class="school"><a href="http://lyk-pefkon.thess.sch.gr/">Pefka High School</a>, Thessaloniki, Greece</div>
+                                    <div class="info">
+                                        <span class="grey">GPA:</span> 19.5/20.0
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="section">
+                    <h3 class="section-title" id="papers">Research Papers</h3>
+                    <div class="section-content">
+                        <div class="paper-container">
+                            <div class="image-holder">
+                                <img class="paper-image" src="images/auctions_small.png" alt="Auctions">
+                            </div>
+                            <div class="paper-details">
+                                <div class="paper-title">
+                                    <strong><a href="pdfs/DHRS%20-%20Expertise%20in%20Online%20Markets%20-%202016.pdf">Expertise in Online Markets</a></strong>
+                                </div>
+                                <div class="authors">
+                                    with <a href="http://www.andrew.cmu.edu/user/isaemin/">Isa Hafalir</a>, <a href="http://www.contrib.andrew.cmu.edu/~ravi/">R. Ravi</a>, and <a href="http://faculty.washington.edu/aminsa/">Amin Sayedi</a>
+                                </div>
+                                <div class="venue">
+                                    <strong><a href="http://pubsonline.informs.org/journal/mnsc">Management Science</a></strong>, 2016
+                                </div>
+                                <a href="pdfs/DHRS%20-%20Expertise%20in%20Online%20Markets%20-%202016%20(Online%20Appendix).pdf">Online Appendix</a>
+                                &emsp;
+                                <input type="checkbox" class="abstract-state" id="abstract1"/>
+                                <label for="abstract1" class="abstract-trigger"></label>
+                                <div class="abstract-wrap">
+                                    <div class="abstract-target">
+                                        <h4>Abstract</h4>
+                                        <p>
+                                            We examine the effect of the presence of expert buyers on other buyers, the platform, and the sellers in online markets. We model buyer expertise as the ability to accurately predict the quality, or condition, of an item, modeled as its common value. We show that non-experts may bid more aggressively, even above their expected valuation, to compensate for their lack of information. As a consequence, we obtain two interesting implications. First, auctions with a hard close may generate higher revenue than those with a soft close. Second, contrary to the linkage principle, an auction platform may obtain a higher revenue by hiding the item's common-value information from the buyers. We also consider markets where both auctions and posted prices are available and show that the presence of experts allows the sellers of high quality items to signal their quality by choosing to sell via auctions.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="paper-container">
+                            <div class="image-holder">
+                                <img class="paper-image" src="images/attribution_small.png" alt="Attribution">
+                            </div>
+                            <div class="paper-details">
+                                <div class="paper-title">
+                                    <strong><a href="pdfs/ADR%20-%20Multi-Channel%20Attribution%20The%20Blind%20Spot%20of%20Online%20Advertising%20-%202017.pdf">Multi-Channel Attribution: The Blind Spot of Online Advertising</a></strong>
+                                </div>
+                                <div class="authors">
+                                    with <a href="http://www.vibhanshu.com">Vibhanshu Abhishek</a> and <a href="http://www.contrib.andrew.cmu.edu/~ravi/">R. Ravi</a>
+                                </div>
+                                (under review)
+                                &emsp;
+                                <input type="checkbox" class="abstract-state" id="abstract2"/>
+                                <label for="abstract2" class="abstract-trigger"></label>
+                                <div class="abstract-wrap">
+                                    <div class="abstract-target">
+                                        <h4>Abstract</h4>
+                                        <p>
+                                            In this paper, we study the problem of attributing credit for customer acquisition to different components of a digital marketing campaign using an analytical model. We investigate attribution contracts through which an advertiser tries to incentivize two publishers that affect customer acquisition. We situate such contracts in a two-stage marketing funnel, where the publishers should coordinate their efforts to drive conversions.
+                                        </p>
+                                        <p>
+                                            First, we analyze the popular class of multi-touch contracts where the principal splits the attribution among publishers using fixed weights depending on their position. Our first result shows the following counterintuitive property of optimal multi-touch contracts: higher credit is given to the portion of the funnel where the existing baseline conversion rate is higher. Next, we show that social welfare maximizing contracts can sometimes have even higher conversion rate than optimal multi-touch contracts, highlighting a prisoners' dilemma effect in the equilibrium for the multi-touch contract. While multi-touch attribution is not globally optimal, there are linear contracts that "coordinate the funnel" to achieve optimal revenue. However, such optimal-revenue contracts require knowledge of the baseline conversion rates by the principal. When this information is not available, we propose a new class of 'reinforcement' contracts and show that for a large range of model parameters these contracts yield better revenue than multi-touch.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="paper-container">
+                            <div class="image-holder">
+                                <img class="paper-image" src="images/adblocking_small.png" alt="Adblocking">
+                            </div>
+                            <div class="paper-details">
+                                <div class="paper-title">
+                                    <strong>The Benefficial Effects of Ad Blockers</strong>
+                                </div>
+                                <div class="authors">
+                                    with <a href="http://www.contrib.andrew.cmu.edu/~ravi/">R. Ravi</a> and <a href="http://tepper.cmu.edu/our-faculty-and-research/about-our-faculty/faculty-profiles/kannans/srinivasan-kannan">Kannan Srinivasan</a>
+                                </div>
+                                (working paper)
+                            </div>
+                        </div>
+
+                        <div class="paper-container">
+                            <div class="image-holder">
+                                <img class="paper-image" src="images/network_small.png" alt="Network">
+                            </div>
+                            <div class="paper-details">
+                                <div class="paper-title">
+                                    <strong>Advertising of Products with Positive Network Effects</strong>
+                                </div>
+                                (work in progress)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="section">
+                    <h3 class="section-title" id="awards">Honors and Awards</h3>
+                    <div class="section-content">
+                        <table class="awards">
+                            <tr>
+                                <td>2015</td>
+                                <td>
+                                    <strong>Winner</strong> (team of two) of the <a href="http://tepper.cmu.edu/our-faculty-and-research/seminars-and-conferences/smart-workshop">SMART Workshop</a> <strong>Structural Modeling</strong> Challenge, <a href="http://www.cmu.edu/">Carnegie Mellon University</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2014</td>
+                                <td>
+                                    <strong><a href="http://tepper.cmu.edu/prospective-students/phd/program/placements-and-student-awards">Egon Balas Award</a></strong> for the <strong>Best paper</strong> in <a href="http://tepper.cmu.edu/prospective-students/phd/program/operations-research">Operations Research</a> / <a href="http://aco.math.cmu.edu/">Algorithms, Combinatorics & Optimization</a>, <a href="http://www.cmu.edu/">Carnegie Mellon University</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2012&ndash;2016</td>
+                                <td>
+                                    <strong>William Larimer Mellon Fellowship</strong>, <a href="http://www.cmu.edu/">Carnegie Mellon University</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2010&ndash;2011</td>
+                                <td>
+                                    <strong><a href="http://mpla.math.uoa.gr/en/awards/mytilinaios/">Mytilinaios Prize</a></strong> for ranking <strong>1st</strong> among the students of the <a href="http://mpla.math.uoa.gr/en/">Logic, Algorithms, and Computation</a> graduate program
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2008&ndash;2010</td>
+                                <td>
+                                    <strong>Thomas Papamichailidis Scholarship</strong> for ranking <strong>1st</strong> among the students of the <a href="https://www.auth.gr/en/sci">Faculty of Sciences</a> and the <a href="https://www.auth.gr/en/eng">Faculty of Engineering</a> <strong>(2 years)</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2006&ndash;2010</td>
+                                <td>
+                                    <strong>Four Awards</strong> from the <strong>State Scholarships Foundation</strong> (<a href="https://www.iky.gr/en/">IKY</a>) for ranking <strong>1st</strong> among the students of the <a href="http://www.math.auth.gr/en">Department of Mathematics</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2006</td>
+                                <td>
+                                    <strong>First</strong> member of the <strong>national team</strong> at the 23rd <strong>Balkan Mathematical Olympiad</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2006</td>
+                                <td>
+                                    <strong>Gold Medal</strong> at the 23rd <strong>National Mathematical Olympiad</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2005</td>
+                                <td>
+                                    <strong>Bronze Medal</strong> at the 22nd <strong>National Mathematical Olympiad</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2002&ndash;2005</td>
+                                <td>
+                                    <strong>Two First Prizes</strong> and <strong>two Honorable mentions</strong> at the <strong>National Mathematical Competition Euclid</strong> held by the <a href="http://www.hms.gr/">Hellenic Mathematical Society</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div class="section">
+                    <h3 class="section-title">Teaching Experience</h3>
+                    <div class="section-content">
+                        <span class="grey">Co-instructor for</span>
+                        <ul>
+                            <li>Optimization for Interactive Marketing, Tepper 45-853, <span class="degree">MBA</span>, <span class="grey">Fall 2016</span></li>
+                        </ul>
+
+                        <span class="grey">Teaching Assistant for</span>
+                        <ul>
+                            <li>Optimization for Interactive Marketing, Tepper 45-853, <span class="degree">MBA</span>, <span class="grey">Spring 2016</span></li>
+                            <li>Business Networks, Tepper 45-951, <span class="degree">MBA</span>, <span class="grey">Fall 2015</span></li>
+                            <li>Business Networks, Tepper 45-951, <span class="degree">MBA</span>, <span class="grey">Fall 2014</span></li>
+                            <li>Linear Programming, Tepper 47-834, <span class="degree">PhD</span>, <span class="grey">Fall 2014</span></li>
+                            <li>Optimization, Tepper 45-751, <span class="degree">MBA</span>, <span class="grey">Spring 2014</span></li>
+                            <li>Graph Theory, Tepper 47-835, <span class="degree">PhD</span>, <span class="grey">Fall 2013</span></li>
+                            <li>Applications of Operations Research, Tepper 45-850, <span class="degree">MBA</span>, <span class="grey">Fall 2013</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="section">
+                    <h3 class="section-title">Professional Activities</h3>
+                    <div class="section-content">
+                        <span class="grey">Ad-hoc reviewer for:</span> <a href="http://www.springer.com/business+%26+management/business+information+systems/journal/10660">Electronic Commerce Research</a>, <a href="https://sites.google.com/site/adauctionsworkshop2013/">Ad Auctions Workshop</a>, <a href="http://esa-symposium.org/">European Symposium on Algorithms</a>
+                    </div>
+                </div>
+
+
+                <div class="section">
+                    <h3 class="section-title">Graduate Coursework (selected)</h3>
+                    <div class="section-content">
+                        <div>
+                            <input type="checkbox" class="read-more-state" id="read-more-courses" />
+
+                            <ul class="read-more-wrap">
+                                <li><span class="grey">Fall 2015:</span> Econometrics I (47-811)</li>
+                                <li><span class="grey">Spring 2015:</span> Analytical and Structural Marketing Models (47-744)</li>
+                                <li><span class="grey">Fall 2014:</span> Advanced Stochastic Analysis and Applications I (47-774), Advanced Stochastic Analysis and Applications II (47-775)</li>
+                                <li><span class="grey">Spring 2014:</span> Random Graphs (21-801)</li>
+                                <li><span class="grey">Fall 2013:</span> A Theorist's Toolkit (15-859), Real Analysis (21-620), Introduction to Lebesgue Integration (21-621)</li>
+                                <li><span class="grey">Spring 2013:</span> Graduate Algorithms (15-750), Algorithms Games and Networks (15-896), Integer Programming (47-830), Advanced Integer Programming (47-831)</li>
+                                <li><span class="grey">Fall 2012:</span> Discrete Mathematics (21-701), Linear Programming (47-834), Graph Theory (47-835), Networks and Matchings (47-836), Dynamic Programming (47-840)</li>
+
+                                <li class="read-more-target"><span class="grey">Fall 2011:</span> Computational Game Theory, Computational Algebra, Advanced Approximation Algorithms</li>
+                                <li class="read-more-target"><span class="grey">Spring 2011:</span> Mathematical Logic, Algorithms and Complexity II, Set Theory, Approximation Algorithms</li>
+                                <li class="read-more-target"><span class="grey">Fall 2010:</span> Computability, Algorithms and Complexity I, Graph Theory, Cryptography and Complexity</li>
+                            </ul>
+
+                            <label for="read-more-courses" class="read-more-trigger"></label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="section">
+                    <h3 class="section-title">Computer Skills</h3>
+                    <div class="section-content">
+                        Mathematica, C/C++, Python, R, HTML/CSS, Javascript (jQuery), <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>, Cambridge IT Skills Proficiency
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">Other Activities</h3>
+                    <div class="section-content">
+                        <ul>
+                            <li><strong>Chess</strong>: I was an active member of the <a href="http://pefkachess.gr">Pefka Chess Club</a> during the period 2002&ndash;2006 (participating in tournaments with many distinctions).</li>
+                            <li>Solving algorithmic and mathematical problems (e.g. ranked <strong>1st in the world</strong> on <a href="https://projecteuler.net/">ProjectEuler.net</a> in December 2008 after solving all 221 problems by then).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+        <script src="js/cv_script.js"></script>
 
     </body>
 </html>
