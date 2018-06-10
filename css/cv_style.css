@@ -89,6 +89,7 @@ body {
 /* Name title */
 #name-title {
     color: #3f51b5;
+    line-height: 1.3;
 }
 
 /* Grey */
@@ -118,6 +119,7 @@ body {
 }
 @media (min-width: 48em) and (min-height: 36em) {
     .sidebar {
+        padding-top: 4em;
         position: fixed;
         top: 0;
         width: 18em;
@@ -202,10 +204,16 @@ li {
 }
 
 /* Horizontal rule */
-hr {
+.sidebar hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(63, 81, 181, 0.2), rgba(63, 81, 181, 1), rgba(63, 81, 181, 0.2));
+}
+
+.section-content hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(97, 97, 97, 0), rgba(97, 97, 97, 0.5), rgba(97, 97, 97, 0));
 }
 
 /* Profile pic */
