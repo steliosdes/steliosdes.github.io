@@ -22,14 +22,13 @@ body {
 .education-table .cell {
     display: table-cell;
     vertical-align: top;
-    text-align: left;
 }
 .education-table .date {
     color: #616161;
     padding-right: 1em;
-    width: 14em;
+    text-align: center;
 }
-@media (max-width: 32em) {
+/*@media (max-width: 32em) {
     .education-table .description {
         width: 60%;
     }
@@ -38,7 +37,7 @@ body {
     .education-table .description {
         width: 60%;
     }
-}
+}*/
 
 .awards {
     border-spacing: 0 0.3em;
@@ -52,9 +51,8 @@ body {
 }
 
 .contact {
-    margin-left: auto;
-    margin-right: auto;
     color: #616161;
+    margin: 1.5em auto;
 }
 .contact td:first-child {
     vertical-align: top;
