@@ -12,33 +12,6 @@ body {
 }
 
 /* Tables */
-.education-table {
-    display: table;
-    border-spacing: 0 0.3em;
-}
-.education-table .row {
-    display: table-row;
-}
-.education-table .cell {
-    display: table-cell;
-    vertical-align: top;
-}
-.education-table .date {
-    color: #616161;
-    padding-right: 1em;
-    text-align: center;
-}
-/*@media (max-width: 32em) {
-    .education-table .description {
-        width: 60%;
-    }
-}
-@media (min-width: 48em) and (max-width: 53em) and (min-height:36em) {
-    .education-table .description {
-        width: 60%;
-    }
-}*/
-
 .awards {
     border-spacing: 0 0.3em;
 }
@@ -99,6 +72,9 @@ body {
     font-weight: bold;
 }
 
+.education {
+    text-align: justify;
+}
 /* CV-container */
 .cv-container {
     margin-left: auto;
@@ -216,8 +192,8 @@ li {
 
 /* Profile pic */
 #profile-pic img {
-    width: 75%;
-    max-width: 250px;
+    width: 60%;
+    max-width: 210px;
     border-radius: 10%;
     box-shadow: -10px 10px 10px -5px rgba(0,0,0,0.6);
 }
