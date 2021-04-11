@@ -73,9 +73,10 @@ body {
     font-weight: bold;
 }
 
-.education {
+.education, .research, .about {
     text-align: justify;
 }
+
 /* CV-container */
 .cv-container {
     margin-left: auto;
