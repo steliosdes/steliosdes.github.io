@@ -8,6 +8,7 @@ $(document).ready(function() {
     $("#myemail").html($('<a>').text(e1.concat(e2,e3,e4)).attr('href','mailto:'.concat(e1,e2,e3,e4)));
 
     // Smooth scrolling
+    $('a[href^="#sec_"]').on('click', function(event) {
         event.preventDefault();
         var target = this.hash;
         $('html, body').animate({
