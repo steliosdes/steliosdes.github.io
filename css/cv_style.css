@@ -27,6 +27,9 @@ body {
     color: #616161;
     margin: 1.5em auto;
 }
+.contact td {
+    padding: 0.5em 0.2em;
+}
 .contact td:first-child {
     vertical-align: top;
     text-align: center;
@@ -37,7 +40,7 @@ body {
     vertical-align: center;
     text-align: left;
     line-height: 1.2em;
-    font-size: 0.75em;
+    font-size: 1em;
 }
 
 /* Section titles */
@@ -276,7 +279,7 @@ li {
 .abstract-trigger {
     cursor: pointer;
     color: #616161;
-    font-size: .9em;
+    font-size: 1em;
     border-bottom: 1px dashed #9e9e9e;
 }
 
