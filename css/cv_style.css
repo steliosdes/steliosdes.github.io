@@ -40,7 +40,7 @@ body {
     vertical-align: center;
     text-align: left;
     line-height: 1.2em;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 /* Section titles */
@@ -279,7 +279,7 @@ li {
 .abstract-trigger {
     cursor: pointer;
     color: #616161;
-    font-size: 1em;
+    font-size: 0.9em;
     border-bottom: 1px dashed #9e9e9e;
 }
 
