@@ -22,10 +22,4 @@ $(document).ready(function() {
     $('a[href^="http://"], a[href^="https://"]').attr('target','_blank');
     // Open pdfs in a new tab
     $('a[href$=".pdf"]').attr('target', '_blank');
-
-    // Track outbound links (with a target="_blank" attribute)
-    $('a[href^="http://"], a[href^="https://"]').click(function() {
-        var url = $(this).attr('href');
-        ga('send', 'event', 'outbound', 'click', url);
-    });
 });
