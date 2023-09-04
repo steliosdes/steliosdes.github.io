@@ -17,9 +17,4 @@ $(document).ready(function() {
             window.location.hash = target;
         });
     });
-
-    // Open external links in a new tab
-    $('a[href^="http://"], a[href^="https://"]').attr('target','_blank');
-    // Open pdfs in a new tab
-    $('a[href$=".pdf"]').attr('target', '_blank');
 });
