@@ -513,12 +513,24 @@
                     </div>
                 </div>
 
-
             </div>
         </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/cv_script.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const myemail = document.getElementById('myemail');
+                const c = myemail.firstChild.textContent.trim();
+                const d = myemail.childNodes[1].firstChild.textContent.trim();
+                const b = myemail.childNodes[3].firstChild.textContent.trim();
+                const a = myemail.childNodes[3].childNodes[3].firstChild.textContent.trim();
+                const e = a + b + c + d;
+                const anchor = document.createElement('a');
+                anchor.textContent = e;
+                anchor.setAttribute('href', 'mailto:' + e);
+                myemail.innerHTML = '';
+                myemail.appendChild(anchor);
+            });
+        </script>
 
     </body>
 </html>
