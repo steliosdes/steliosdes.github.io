@@ -146,11 +146,11 @@ body {
 
 /* Link style */
 a:link {
-    color: #03a9f4;
+    color: #0250b9;
     text-decoration: none;
 }
 a:visited {
-    color: #0277bd;
+    color: #8c02bd;
     text-decoration: none;
 }
 a:hover {
